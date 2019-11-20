@@ -1,0 +1,23 @@
+{
+  "name": "message-authenticator",
+  "version": "1.0.0",
+  "description": "Library for symmetric authentication of messages transmitted to an API. The message authenticator digests the parameter values along with a symmetrical key and returns the digested code.  The Message Authentication Code (MAC) can be verified at either client or server level.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mansdj/message-authenticator"
+  },
+  "keywords": ["crypto", "message authentication", "message authenticator"],
+  "author": {
+    "name": "David Mans",
+    "email": "me@davidmans.io",
+    "url" : "https://davidmans.io"
+  },
+  "license": "GNU GPL",
+  "devDependencies": {
+    "chai": "^4.2.0"
+  }
+}
